@@ -17,7 +17,7 @@ public class Merege_sort_in_desending {
     }
 
     private static int[] merge(int[] left, int[] right) {
-        int[]mix=new int[left.length+ right.length];
+        int[]mix=new int[left.length + right.length];
         int i=0;
         int j=0;
         int k=0;
