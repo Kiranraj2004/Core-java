@@ -1,11 +1,12 @@
 package oops;
 
-public class Class {
+public class Class_object{
     public static void main(String[] args) {
 //        declaring a student1 object
         student kiran;
 //        initalizing
         kiran=new student();
+//        by default value
 //        System.out.println(student1.marks);0.0
 //        System.out.println(student1.name);null
 //
