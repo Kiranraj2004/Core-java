@@ -5,19 +5,21 @@ class new_horizon{
     String name;
     int usnnumber;
     long phonenumber;
+//    using default string and assining value to that variable
     String department="AIML";
 //    new_horizon() {
 //        System.out.println("enter your name,usnnumber,phone number");
 //    }
     void insert(String nm,int usn ,long phone){
-        name=nm;
-        usnnumber=usn;
-        phonenumber=phone;
+        this.name=nm;
+        this.usnnumber=usn;
+        this.phonenumber=phone;
+//        this.department="cse";
     }
     void displaying(){
         System.out.println("NAME : "+this.name);
-        System.out.println("USN_NUMBER :" +usnnumber);
-        System.out.println("PHONE_NUMBER :" +phonenumber);
+        System.out.println("USN_NUMBER :" +this.usnnumber);
+        System.out.println("PHONE_NUMBER :" +this.phonenumber);
         System.out.println("DEPARTEMNT :" +department);
 
     }
@@ -35,12 +37,13 @@ public class Student_class_project {
         for (int i = 0; i <n ; i++) {
             System.out.println("enter your name");
             String nm=input.nextLine();
-
+            
             System.out.println("enter your usn");
             int usn=input.nextInt();
 
             System.out.println("enter your phone_number");
             long phone= input.nextLong();
+
             arr[i].insert(nm,usn,phone);
         }
         System.out.println("displaying student details");

@@ -3,7 +3,7 @@ package oops;
 public class Constructure {
     public static void main(String[] args) {
 
-        students kiran=new students(99,"aryan",9.2f);
+        students kiran=new students(99,"Kiran raj b",9.2f);
 //        students();is default constructure
 //        kiran.rollnumber=75;
 //        kiran.name="kiran raj b";
