@@ -5,5 +5,6 @@ public class Human_1 {
         Human mithun=new Human(12,"mithun",false);
         System.out.println(mithun.age);
         System.out.println(Human.population);
+        System.out.println(mithun.married);
     }
 }
