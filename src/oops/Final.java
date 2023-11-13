@@ -8,6 +8,11 @@ package oops;
        public a(String name){
            this.name=name;
        }
+
+//     @Override
+////     protected void finalize() throws Throwable {
+////         System.out.println("object is destroyed");
+////     }
  }
 public class Final {
     public static void main(String[] args) {
