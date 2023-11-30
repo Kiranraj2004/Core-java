@@ -20,5 +20,12 @@ public class Boxweigth  extends Box{
 //        if you have same object in both class but you have to access the parent class
 //        object then you have to use super keyword
 //        if you use this.h it will initialize in this class it self
+
+    }
+    Boxweigth(double size){
+        super(size);
+        this .weigth=size;
+
+
     }
 }
