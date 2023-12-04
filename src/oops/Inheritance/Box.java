@@ -8,6 +8,9 @@ public class Box {
         this.w=-1;
         this.l=-1;
     }
+    public void get(){
+        System.out.println(this.l);
+    }
     Box (double heigth,double width,double length){
         this.h=heigth;
         this.w=width;

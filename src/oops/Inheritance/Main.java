@@ -1,5 +1,5 @@
 package oops.Inheritance;
-
+import oops.polymorphism.Circle;
 public class Main {
     public static void main(String[] args) {
         Box n=new Box();
@@ -26,6 +26,9 @@ public class Main {
         Boxcolour s=new Boxcolour(1,2,3,4,"blue");
         System.out.println(s.colour);
          Boxcolour d=new Boxcolour(3,"green");
+         d.get();
+
+
     }
 
 }
