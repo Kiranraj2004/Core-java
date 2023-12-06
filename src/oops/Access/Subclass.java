@@ -22,6 +22,9 @@ public class Subclass {
 
         System.out.println(obj.getters());
 //        the above function getters it will return the the value
+        System.out.println(accessmodifier.a);
+//        if we want access static variable to other class we want access
+//        through class name
 
     }
 }

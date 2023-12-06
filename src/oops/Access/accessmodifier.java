@@ -2,6 +2,7 @@ package oops.Access;
 
 public class accessmodifier {
 //   this is the main class
+   static int a;
    protected int protec;
    public int pub;
    String defult;
