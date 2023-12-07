@@ -10,6 +10,7 @@ public class subclass1 {
 //        obj.protec=2;
 //        System.out.println( obj.protec);
 //        we can access the public member
+
         obj.pub = 3;
         System.out.println(obj.pub);
 //        we  can not access the default member;

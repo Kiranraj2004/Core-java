@@ -22,5 +22,6 @@ public static void main(String[] args) {
 
     System.out.println(obj.getters());
 //        the above function getters it will return the the value
+    int d=accessmodifier.a;
 }
 }
