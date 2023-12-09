@@ -1,5 +1,6 @@
 package oops.Abstract;
 
+//we cant use final word to class because we need to inherit the class
 public  abstract class Parent {
 //    if any one method in class are abstract then the class should be define
 //    as abstract
@@ -18,8 +19,12 @@ public  abstract class Parent {
 //    abstract static void masg();
 //    also we cant create abstract static method because statis methods are cant
 //    override
-//    but we can create static methodsin this class
+//    but we can create static methods in this class
      static void msg(){
          System.out.println("hello everyone ");
+     }
+
+     void normal(){
+         System.out.println("this are the normal methods ");
      }
 }

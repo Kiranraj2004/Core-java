@@ -13,4 +13,5 @@ public class Son extends Parent {
     void patner() {
         System.out.println("i love superman");
     }
+
 }

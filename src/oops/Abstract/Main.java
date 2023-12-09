@@ -12,7 +12,9 @@ public class Main {
 //        but in parent class the methods dont have body so that we cant create object
 
         Parent.msg();
-
+        d.normal();
+    Parent k=new daguhter(4);
+//    we can use parent variable as reference variable
 
     }
 }
