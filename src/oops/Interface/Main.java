@@ -6,8 +6,10 @@ public class Main {
         s.aceleerate();
         s.start();
         s.stop();
-        int o=engine.a;
+        int o=s.a;
         s.power();
 
+        outer g=new outer();
+        System.out.println(g.odd(3));
     }
 }
