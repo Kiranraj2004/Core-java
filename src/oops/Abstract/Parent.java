@@ -13,6 +13,9 @@ public  abstract class Parent {
 
 //    we can also create constructor
     int age;
+    Parent(){
+        System.out.println("hello");
+    }
     Parent(int age){
         this.age=age;
     }
