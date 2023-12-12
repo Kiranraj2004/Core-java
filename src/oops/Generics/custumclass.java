@@ -49,6 +49,7 @@ public class custumclass <T>{
      custumclass<Integer>list=new custumclass<>();
         list.add(10);
         list.add(19);
+        list.add(14);
         System.out.println(list.get(0));
 //        for (int i = 0; i <15 ; i++) {
 //            list.add(2*i);
