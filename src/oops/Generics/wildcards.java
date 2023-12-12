@@ -1,14 +1,15 @@
 package oops.Generics;
 
 import java.util.Arrays;
-//in this we are going to build our own arraylist
-
-public class custumclass <T>{
+//this is wildcards the interger and float is type of Number class
+//if we extend the number class  and
+//after that we can insert even float and integer
+public class wildcards <T extends Number>{
     private Object []data;
     private int defaultsize=10;
 
     private static int size=0;
-    custumclass(){
+    wildcards(){
         data=new Object[defaultsize];
     }
     void add(T value){
@@ -29,7 +30,7 @@ public class custumclass <T>{
         return size==data.length;
     }
     T get(int index){
-        return (T)data[index];
+        return (T) data[index];
     }
     void set(int index,T value){
         data[index]=value;
@@ -47,10 +48,10 @@ public class custumclass <T>{
     }
 
     public static void main(String[] args) {
-     custumclass<Integer>list=new custumclass<>();
+        wildcards<Number>list=new wildcards<>();
         list.add(10);
         list.add(19);
-        list.add(14);
+        list.add(14.f);
         System.out.println(list.get(0));
 //        for (int i = 0; i <15 ; i++) {
 //            list.add(2*i);
