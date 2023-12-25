@@ -8,7 +8,7 @@ public class Main {
 //        divide from 0
         try{
 
-          divide(a,b);
+          divide(b,a);
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
