@@ -9,7 +9,7 @@ public class creatingnewfile {
             f.createNewFile();
 //            f.delete();
             f.compareTo(new File("/Users/USER/Desktop/java programing/core java/src/File_handling/note.txt"));
-
+           f.delete();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
