@@ -11,6 +11,8 @@ public class practice {
 //        System.err.println("This is an error message.");
         try (BufferedReader ob=new BufferedReader(new FileReader("D:/Atomic Habits by James Clear.pdf"))){
 //            ob.read();
+            
+
             while(ob.ready()){
                 System.out.println(ob.readLine());
             }
