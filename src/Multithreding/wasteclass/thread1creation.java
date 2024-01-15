@@ -1,6 +1,6 @@
 package Multithreding;
 
-public class thread extends Thread{
+public class thread1creation extends Thread{
 //    multitasking allows several activites to occur concurrently on the computer
 //     process based multitasking
 //    thread based multitasking
@@ -8,6 +8,10 @@ public class thread extends Thread{
 //    in threads  they will work in same program for
 //    ex ms word where we write at the same time it will check the grammar mistake
 //     process thread example switching from ms word to painting its not a in same program
+
+    public thread1creation(String name) {
+        super(name);
+    }
 
     @Override
     public void run() {
