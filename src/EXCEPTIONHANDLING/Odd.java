@@ -1,6 +1,5 @@
-package oops.EXCEPTIONHANDLING;
+package EXCEPTIONHANDLING;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Odd {

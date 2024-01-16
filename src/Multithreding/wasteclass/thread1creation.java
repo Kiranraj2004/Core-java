@@ -1,4 +1,4 @@
-package Multithreding;
+package Multithreding.wasteclass;
 
 public class thread1creation extends Thread{
 //    multitasking allows several activites to occur concurrently on the computer

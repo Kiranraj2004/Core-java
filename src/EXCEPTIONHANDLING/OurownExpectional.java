@@ -1,4 +1,4 @@
-package oops.EXCEPTIONHANDLING;
+package EXCEPTIONHANDLING;
 
 public class OurownExpectional extends Exception{
     public OurownExpectional(String msg) {

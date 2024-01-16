@@ -1,6 +1,6 @@
 package collection_frame_work;
 import java.util.*;
-public class vector {
+public class vecto {
     public static void main(String[] args) {
 //        vector are synchronized the object  will be wait
 //        until one object works complete on vector it is slow when compare to array list

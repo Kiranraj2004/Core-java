@@ -1,4 +1,7 @@
-package Multithreding;
+package Multithreding.wasteclass;
+
+import Multithreding.wasteclass.thread1creation;
+import Multithreding.wasteclass.thread2creation;
 
 public class Threadtester {
     public static void main(String[] args) {

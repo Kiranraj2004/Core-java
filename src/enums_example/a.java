@@ -1,2 +1,5 @@
-package enums_example;public interface a {
+package enums_example;
+
+public interface a {
+    void display();
 }

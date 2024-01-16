@@ -1,4 +1,4 @@
-package Multithreding;
+package Multithreding.wasteclass;
 
 public class thread2creation implements Runnable{
     @Override
