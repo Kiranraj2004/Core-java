@@ -8,7 +8,7 @@ public class DateTimeExample {
 
         // Creating a SimpleDateFormat object to format the date and time
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
+        System.out.println("hello");
         // Formatting the date and time using the SimpleDateFormat
         String formattedDateTime = dateFormat.format(currentDate);
 
